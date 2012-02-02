@@ -1,0 +1,12 @@
+Questions:
+
+1. in the revised roulette OOP, why is it better to have each subclass of bet create
+its own "dummy" object for the factory to work with? Doesn't that take up 
+a lot of memory? 
+
+2. Organization: I don't want 20 subclasses of Expression cluttering up my model 
+package. How to organize? Nested classes?
+
+3. Expression currently has the .toString method, which forces me to keep a 
+myValue and myCommand variable in that class (and thus in the subclasses). Any way 
+to fix this?

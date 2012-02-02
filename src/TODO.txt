@@ -1,0 +1,29 @@
+TODO:
+
+move second half of parsing to parenexpression
+
+clean up code
+
+
+=---
+Part 3:
+sum     // returns sum of all the given expressions together //JUST MAP THIS TO ADD
+product // returns product of all the given expressions together //MAP THIS TO MULTIPLY
+average // returns average of all the given expressions //SUM/.SIZE()
+min     // returns minimum of the given expressions 
+max     // returns maximum of the given expressions
+ 
+Map these to old. AKA LEARN REGEX
+(+ expr expr)
+(- expr expr)
+(* expr expr)
+(/ expr expr)
+(% expr expr)            // mod
+(^ expr expr)            // exp
+(! expr)                 // negate   
+
+evalute the first expression and if its value is > 0, the result is the second expression, otherwise the result is the third expression. Treat a color's value as the average of its red green and blue components.
+(if
+condition-expr
+greater-expr
+lesser-expr)
