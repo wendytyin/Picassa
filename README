@@ -1,0 +1,23 @@
+README.txt for Picassa Part 1
+Name: Wendy Yin wty3
+Dates: Jan 13-Jan 16 2011 ----- Refactoring: sporadic between Jan 19-Jan 25 2011
+Estimated time: 6 hrs ------ Refactoring: no idea
+Total time taken: Approximately 4.5 hrs -----Refactoring: forever, and I still think I could do a bit more.
+(turns out I remembered more Java than I thought I did)
+
+Consulted:
+Helena Wu (hw87)
+http://docs.oracle.com/javase/6/docs/api/java/lang/Math.html
+http://docs.oracle.com/javase/tutorial/essential/regex/
+
+Tested with ParserTest, entered values by hand (running from Main) against images 
+seen on assignment page: http://www.cs.duke.edu/courses/spring12/cps108/assign/01_picassa/intrinsics/
+
+Notes: I had to break the links to Expression.evaluate() inside the ParserTest class
+in order to account for the variables x and y (the axes). 
+This will have to be modified if ParserTest is updated to try the variables.
+
+I coded at first without caring about the openness of the functions. As a result, 
+Parser has commands like neg and color hard-coded in them. I'm sorry. I don't 
+really know how to fix it.
+
